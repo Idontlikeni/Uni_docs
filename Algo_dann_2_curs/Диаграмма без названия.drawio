@@ -182,10 +182,8 @@
         <mxCell id="s0M_Ey_tbC9sjgcI6Hga-10" value="Вывод &quot;введите координаты точек&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="250" y="380" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s0M_Ey_tbC9sjgcI6Hga-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="G4KBmSxN6sylE5Wgttx4-15">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="460" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="s0M_Ey_tbC9sjgcI6Hga-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s0M_Ey_tbC9sjgcI6Hga-12" target="G4KBmSxN6sylE5Wgttx4-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s0M_Ey_tbC9sjgcI6Hga-12" value="ввод x, y" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="250" y="430" width="120" height="20" as="geometry" />
