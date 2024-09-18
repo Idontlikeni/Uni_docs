@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DZ/First.md",
+                "file": "DZ/ДЗ 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DZ/First.md",
+                "file": "DZ/ДЗ 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DZ/First.md",
+                "file": "DZ/ДЗ 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DZ/First.md"
+                "file": "DZ/ДЗ 1.md"
               }
             }
           }
@@ -148,11 +148,18 @@
   },
   "active": "25ecb719216b5047",
   "lastOpenFiles": [
-    "DZ/First.pdf",
+    "lectures/17.09.2024.md",
+    "DZ/ДЗ 1.md",
+    "DZ/~$ДЗ 1.docx",
+    "DZ/ДЗ 1.docx",
+    "DZ/ДЗ 1.tex",
+    "Pasted image 20240916200657.png",
     "Pasted image 20240916201100.png",
     "Pasted image 20240916201057.png",
-    "Pasted image 20240916200657.png",
-    "DZ/First.md",
+    "PR/17.09.2024.md",
+    "PR",
+    "lectures",
+    "DZ/First.pdf",
     "DZ",
     "create a link.md",
     "Welcome.md"

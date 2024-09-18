@@ -1,0 +1,199 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{Часть 1}\label{ux447ux430ux441ux442ux44c-1}
+
+\textbf{Дано:}
+
+\$\$
+
+\displaylines{R_{1} = 15,\\R_{2} = 28,\\R_{3} = 17,\\R_{4} = 62,\\R_{5} = 38,\\R_{6} = 21,\\E_{1} = 13,\\E_{4} = 14}
+
+\$\$ !{[}{[}Pasted image 20240916200657.png{]}{]} \#\# 1.1 Определить
+токи во всех ветвях методом непосредственного законов Кирхгофа
+
+узел a: \(-I_{1} - I_{4} - I_{6} = 0\) узел b:
+\(I_{1} + I_{2} + I_{3} = 0\) узел c: \(-I_{3} + I_{5} + I_{6} = 0\)
+
+контур abdma: \(I_{1}R_{1} - I_{2}R_{2} - I_{4}R_{4} = E_{1} - E_{4}\)
+контур dbcd: \(I_{2}R_{2} - I_{3}R_{3} - I_{5}R_{5} = 0\) контур amdcna:
+\(I_{4}R_{4} + I_{5}R_{5} - I_{6}R_{6} = E_{4}\) Получается система
+уравнений
+
+\[
+\begin{cases}
+-I_{1} - I_{4} - I_{6} = 0 \\ I_{1} + I_{2} + I_{3} = 0 \\ -I_{3} + I_{5} + I_{6} = 0 \\ I_{1}R_{1} - I_{2}R_{2} - I_{4}R_{4} = E_{1} - E_{4} \\ I_{2}R_{2} - I_{3}R_{3} - I_{5}R_{5} = 0 \\ I_{4}R_{4} + I_{5}R_{5} - I_{6}R_{6} = E_{4}
+\end{cases}
+\] Решим систему уравнений с помощью матриц, представив систему в виде:
+(R)(I) = (E). \[
+\begin{pmatrix}
+-1 & 0 & 0 & -1 & 0 & -1 \\
+1 & 1 & 1 & 0 & 0 & 0 \\
+0 & 0 & -1 & 0 & 1 & 1 \\
+15 & -28 & 0 & -62 & 0 & 0 \\
+0 & 28 & -17 & 0 & -38 & 0 \\
+0 & 0 & 0 & 62 & 38 & -21
+\end{pmatrix}
+\begin{pmatrix}
+I_{1} \\
+I_{2} \\
+I_{3} \\
+I_{4} \\
+I_{5} \\
+I_{6}
+\end{pmatrix}
+ = 
+\begin{pmatrix}
+0 \\
+0 \\
+0 \\
+13 - 14 \\
+0 \\
+14
+\end{pmatrix}
+\] После решения данной системы, получим следующие значения токов: \[
+\begin{pmatrix}
+I_{1} \\
+I_{2} \\
+I_{3} \\
+I_{4} \\
+I_{5} \\
+I_{6}
+\end{pmatrix} = 
+\begin{pmatrix}
+  78341/357043 \\
+  -3921/357043 \\
+ -74420/357043 \\
+  26483/357043 \\
+  30404/357043 \\
+-104824/357043
+\end{pmatrix}
+ = 
+ \begin{pmatrix}
+0.2194 \\
+-0.010982 \\
+-0.2084 \\
+0.074173 \\
+0.085155 \\
+-0.2936
+\end{pmatrix}
+\] \$\$
+
+\displaylines{I_{1} = 0.2194;\\I_{2} = -0.010982;\\I_{3} = -0.2084;\\I_{4} = 0.074173;\\I_{5} = 0.085155;\\I_{6} = -0.2936}
+
+\$\$ \#\# 1.2 Составить баланс мощностей
+
+Уравнение баланса мощностей для цепи постоянного тока имеет вид: \[
+\sum_{n}R_{n}I_{n}^2 = \sum_{k}\pm I_{k}E_{k}
+\] \[
+R_{1}*I_{1}^2 + R_{2}*I_{2}^2 + R_{3}*I_{3}^2 + R_{4}*I_{4}^2 + R_{5}*I_{5}^2 + R_{6}*I_{6}^2 = I_{4}E_{4} + I_{6}E_{6}
+\] Подставив числа, получаем: \[\begin{gather}
+15 * 0.2194 ^ 2 + 28 * (-0.010982)^2 + 17 * (-0.2084)^2 + \\ + 62 * 0.074173^2 + 38 * 0.085155^2 + 21 * (-0.2936)^2 =\\= 13 * 0.2194 + 14 * 0.074173
+\\
+3,8906 = 3,8906
+\end{gather}\] Баланс сошелся
+
+\section{Часть 2}\label{ux447ux430ux441ux442ux44c-2}
+
+По закону контурных токов, надо найти контурные токи, а затем по ним
+рассчитать токи в ветвях. Система уравнений для контурных токов:
+
+Представим систему в матричном виде \[
+\begin{pmatrix}
+R_{1} + R_{2} + R_{4} & -R_{2} & -R_{4} \\
+-R_{2} & R_{2} + R_{3} + R_{5} & -R_{5} \\
+-R_{4} & -R_{5} & R_{4} + R_{5} + R_{6}
+\end{pmatrix}
+\begin{pmatrix}
+I_{11} \\
+I_{22} \\
+I_{33}
+\end{pmatrix} = 
+\begin{pmatrix}
+E_{1} - E_{4} \\
+0 \\
+E_{4}
+\end{pmatrix}
+\] Решаем, получается: \[
+\begin{pmatrix}
+I_{11} \\
+I_{22} \\
+I_{33}
+\end{pmatrix} = 
+\begin{pmatrix}
+0.2194\\
+0.2084\\
+0.2936\\
+\end{pmatrix}
+\] Находим значения токов в ветвях: \[
+\begin{gather}
+I_{1} = I_{11} = 0.2194\\
+I_{2} = I_{22} - I_{11} = 0.2084 - 0.2194\\
+I_{3} = -I_{22} = -0.2084\\
+I_{4} = I_{33} - I_{11} = 0.2936 - 0.2194\\
+I_{5} = I_{33} - I_{22} = 0.2936 -0.2084\\
+I_{6} = -I_{33} = -0.2936
+\end{gather}
+\] Получаем: \[
+\begin{gather}
+I_{1} = I_{11} = 0.2194\\
+I_{2} = -0.011000\\
+I_{3} = -0.2084\\
+I_{4} = 0.074200\\
+I_{5} = 0.085200\\
+I_{6} = -0.2936
+\end{gather}
+\] Ответы сходятся
+
+\end{document}
