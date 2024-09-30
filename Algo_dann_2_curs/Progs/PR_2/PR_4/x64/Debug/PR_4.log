@@ -1,0 +1,3 @@
+﻿  PR_4.cpp
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_4\PR_4.cpp(26,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  PR_4.vcxproj -> D:\Files\Algo_dann_2_curs\Progs\PR_2\x64\Debug\PR_4.exe
