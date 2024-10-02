@@ -1,11 +1,21 @@
 ﻿// PR_7.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
+#define _USE_MATH_DEFINES
 #include <iostream>
+#include <cmath>
+using namespace std;
+
+double method(double a, double b, double eps, double(*f)(double x)) {
+
+}
+
+double f(double x) {
+    return sin(M_PI * x * x / 2);
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
