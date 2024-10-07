@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6ca27b7f82ec66d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "misc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DZ/ДЗ 1.md",
+                "file": "misc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DZ/ДЗ 1.md",
+                "file": "misc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DZ/ДЗ 1.md"
+                "file": "misc.md"
               }
             }
           }
@@ -146,6 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5acc1c5afecd649",
-  "lastOpenFiles": []
+  "active": "6ca27b7f82ec66d9",
+  "lastOpenFiles": [
+    "DZ/ДЗ 1.md",
+    "DZ/First.pdf",
+    "misc.md"
+  ]
 }
