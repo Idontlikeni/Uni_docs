@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc.md",
+                "file": "labs/Lab 1..md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc.md",
+                "file": "labs/Lab 1..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "misc.md",
+                "file": "labs/Lab 1..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "misc.md"
+                "file": "labs/Lab 1..md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "6ca27b7f82ec66d9",
   "lastOpenFiles": [
+    "misc.md",
+    "labs/Lab 1..md",
+    "labs",
     "DZ/ДЗ 1.md",
-    "DZ/First.pdf",
-    "misc.md"
+    "DZ/First.pdf"
   ]
 }
