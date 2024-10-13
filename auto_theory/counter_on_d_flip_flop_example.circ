@@ -3,7 +3,7 @@
 This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
 <lib desc="#Wiring" name="0">
     <tool name="Splitter">
-      <a name="facing" val="west"/>
+      <a name="facing" val="south"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
       <a name="appear" val="center"/>
@@ -208,99 +208,84 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(290,320)" to="(300,320)"/>
     <wire from="(120,150)" to="(120,200)"/>
     <wire from="(180,400)" to="(250,400)"/>
-    <comp lib="1" loc="(380,140)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(290,450)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate0" val="true"/>
-    </comp>
-    <comp lib="0" loc="(120,700)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
+    <comp lib="0" loc="(120,100)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q3"/>
     </comp>
     <comp lib="0" loc="(210,700)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(380,320)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(210,100)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="Q0"/>
-    </comp>
-    <comp lib="0" loc="(180,100)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="Q1"/>
-    </comp>
-    <comp lib="0" loc="(470,90)" name="Clock"/>
-    <comp lib="4" loc="(560,300)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(380,230)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(620,120)" name="Tunnel">
-      <a name="label" val="Q4"/>
-    </comp>
-    <comp lib="1" loc="(290,410)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="0" loc="(150,100)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="Q2"/>
+    <comp lib="1" loc="(400,600)" name="NAND Gate">
+      <a name="inputs" val="4"/>
     </comp>
     <comp lib="1" loc="(290,120)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
       <a name="negate2" val="true"/>
     </comp>
-    <comp lib="4" loc="(560,210)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(290,620)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="negate0" val="true"/>
-    </comp>
-    <comp lib="0" loc="(180,700)" name="Pin">
+    <comp lib="0" loc="(90,700)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(290,370)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="4" loc="(560,410)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(610,210)" name="Tunnel">
+      <a name="label" val="Q3"/>
     </comp>
     <comp lib="1" loc="(400,430)" name="NAND Gate">
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="0" loc="(610,580)" name="Tunnel">
-      <a name="label" val="Q0"/>
-    </comp>
-    <comp lib="1" loc="(290,580)" name="NAND Gate">
+    <comp lib="1" loc="(290,540)" name="NAND Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="negate0" val="true"/>
+      <a name="inputs" val="2"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(610,410)" name="Tunnel">
+      <a name="label" val="Q1"/>
+    </comp>
+    <comp lib="0" loc="(120,700)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(90,100)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="Q4"/>
+    </comp>
+    <comp lib="1" loc="(290,370)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(290,160)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
       <a name="negate2" val="true"/>
     </comp>
-    <comp lib="4" loc="(560,410)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(560,120)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(400,600)" name="NAND Gate">
-      <a name="inputs" val="4"/>
+    <comp lib="4" loc="(560,300)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(150,100)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q2"/>
+    </comp>
+    <comp lib="1" loc="(290,580)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+    </comp>
+    <comp lib="1" loc="(290,410)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(210,100)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q0"/>
+    </comp>
+    <comp lib="1" loc="(290,250)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="negate0" val="true"/>
     </comp>
     <comp lib="0" loc="(150,700)" name="Pin">
       <a name="facing" val="north"/>
@@ -312,50 +297,65 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="2"/>
       <a name="negate0" val="true"/>
     </comp>
-    <comp lib="1" loc="(290,250)" name="NAND Gate">
+    <comp lib="0" loc="(470,90)" name="Clock"/>
+    <comp lib="0" loc="(620,120)" name="Tunnel">
+      <a name="label" val="Q4"/>
+    </comp>
+    <comp lib="1" loc="(290,450)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
       <a name="negate0" val="true"/>
     </comp>
-    <comp lib="0" loc="(610,210)" name="Tunnel">
-      <a name="label" val="Q3"/>
-    </comp>
-    <comp lib="1" loc="(290,540)" name="NAND Gate">
+    <comp lib="4" loc="(560,210)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(380,320)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-      <a name="negate1" val="true"/>
     </comp>
+    <comp lib="4" loc="(560,120)" name="D Flip-Flop"/>
     <comp lib="1" loc="(290,320)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
       <a name="negate0" val="true"/>
       <a name="negate1" val="true"/>
     </comp>
-    <comp lib="0" loc="(120,100)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="Q3"/>
-    </comp>
-    <comp lib="0" loc="(610,300)" name="Tunnel">
-      <a name="label" val="Q2"/>
-    </comp>
-    <comp lib="1" loc="(290,210)" name="NAND Gate">
+    <comp lib="1" loc="(380,230)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-      <a name="negate1" val="true"/>
     </comp>
-    <comp lib="0" loc="(90,700)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(610,410)" name="Tunnel">
-      <a name="label" val="Q1"/>
+    <comp lib="1" loc="(380,140)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(290,660)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
       <a name="negate0" val="true"/>
       <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="1" loc="(290,620)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+    </comp>
+    <comp lib="1" loc="(290,210)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="0" loc="(610,580)" name="Tunnel">
+      <a name="label" val="Q0"/>
+    </comp>
+    <comp lib="0" loc="(180,100)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q1"/>
+    </comp>
+    <comp lib="0" loc="(180,700)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(610,300)" name="Tunnel">
+      <a name="label" val="Q2"/>
     </comp>
     <comp lib="4" loc="(560,580)" name="D Flip-Flop"/>
   </circuit>
