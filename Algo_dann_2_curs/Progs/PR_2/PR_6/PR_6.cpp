@@ -15,13 +15,12 @@ int find(vector<int>& v) {
 void delete_max(vector<int>& v) {
     int mx = v[0];
     for (auto a : v) {
-        if (a > mx)mx = a;
+        if (a > mx) mx = a;
     }
     int i = 0;
     while (i < v.size()) {
-        if (v[i] == mx) {
-            v.erase(v.begin() + i);
-            i--;
+        if (v[i] == mx && i != v.size() - 1) {
+            v.erase(v.begin() + i + 1, v.begin() + i + 2);
         }
         ++i;
     }
@@ -29,9 +28,13 @@ void delete_max(vector<int>& v) {
 
 void enter(vector<int>& v) {
     while (1) {
+        
         int a;
         cin >> a;
         v.push_back(a);
+        if (std::cin.peek() == '\n') {
+            break;
+        }
     }
 }
 
@@ -50,8 +53,8 @@ int main()
     while (1) {
         cout << "Что вы хотите сделать?\n";
         cout << "1 - Ввести массив\n2 - найти последний отрицательный элемет\n";
-        cout << "3 - удалить все элементы перед каждым максимальным числом\n4 - вывести массив";
-        cout << "0 - выход из программы";
+        cout << "3 - удалить все элементы после каждого максимального числа\n4 - вывести массив\n";
+        cout << "0 - выход из программы\n";
         short c;
         cin >> c;
         switch (c)
