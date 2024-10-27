@@ -6,7 +6,12 @@
 using namespace std;
 
 double method(double a, double b, double eps, double(*f)(double x)) {
+    float x, z, n = 4, h;
+    h = (b - a) / n;
+    z = h / 4;
+    x = 2 * z * (7 * f(a) + 32 * f(a + z) + 12 * f(a + 2*z) + 32 * f(a + 3*z) + 7 * f(a + 4*z)) / 45;
 
+    return x;
 }
 
 double f(double x) {
@@ -15,7 +20,11 @@ double f(double x) {
 
 int main()
 {
-    
+    float a = 0, b, eps;
+    cout << "eps?\n";
+    cin >> eps;
+    b = 0.5; //, 1.0, 1.5, 2.0;
+    cout << method(a, b, eps, f);
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

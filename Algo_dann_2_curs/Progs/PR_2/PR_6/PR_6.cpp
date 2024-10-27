@@ -7,7 +7,7 @@ using namespace std;
 int find(vector<int>& v) {
     for (int i = v.size(); i >= 0; i--)
     {
-        if (i < 0)return i;
+        if (v[i] < 0)return i;
     }
     return -1;
 }
