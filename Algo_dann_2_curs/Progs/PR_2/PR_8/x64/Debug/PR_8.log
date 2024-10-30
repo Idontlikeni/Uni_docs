@@ -1,0 +1,14 @@
+﻿  PR_8.cpp
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(43,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(43,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(53,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(53,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(63,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(65,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(78,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(80,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(93,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(93,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(103,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_8\PR_8.cpp(103,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  PR_8.vcxproj -> D:\Files\Algo_dann_2_curs\Progs\PR_2\x64\Debug\PR_8.exe
