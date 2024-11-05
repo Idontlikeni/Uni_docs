@@ -1,0 +1,23 @@
+﻿  PR_9.cpp
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(43,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(43,8):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(29,3):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void enter_mat<int>(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)"
+  
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(43,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(54,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(54,8):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(30,3):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void sort_mat<int>(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)"
+  
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(56,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(69,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(69,8):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(31,3):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void print_mat<int>(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> &)"
+  
+D:\Files\Algo_dann_2_curs\Progs\PR_2\PR_9\PR_9.cpp(69,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  PR_9.vcxproj -> D:\Files\Algo_dann_2_curs\Progs\PR_2\x64\Debug\PR_9.exe
