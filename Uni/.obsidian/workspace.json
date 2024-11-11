@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "e2067f538081c235",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
+          },
+          {
             "id": "9fd00113b60c8bd2",
             "type": "leaf",
             "state": {
@@ -177,9 +189,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9fd00113b60c8bd2",
+  "active": "e2067f538081c235",
   "lastOpenFiles": [
-    "Welcome.md",
-    "Architech_Pr2.md"
+    "Architech_Pr2.md",
+    "Welcome.md"
   ]
 }
