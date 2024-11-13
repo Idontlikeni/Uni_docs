@@ -61,7 +61,7 @@ void enter_mat(vector<vector<string>>& vec) {
 
 void sort_mat(vector<vector<int>>& vec) {
 	int m = vec.size();
-	if (m == 0) return;
+	if (m == 0) return; 
 	int n = vec[0].size();
 	for (int i = 0; i < m * n - 1; i++) {
 		for (int j = i + 1; j < m * n; j++) {
