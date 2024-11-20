@@ -6,7 +6,7 @@
       {
         "id": "be6df0078bffbafd",
         "type": "tabs",
-        "dimension": 63.802816901408455,
+        "dimension": 63.80281690140845,
         "children": [
           {
             "id": "682646ed3083ff63",
@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "76e4cb87cf6587f2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
+            }
+          },
+          {
             "id": "8bdcb7250bf8ed5c",
             "type": "leaf",
             "state": {
@@ -36,12 +48,13 @@
               "title": "ДЗ 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "9196d2da12260e1c",
         "type": "tabs",
-        "dimension": 36.19718309859155,
+        "dimension": 36.197183098591545,
         "children": [
           {
             "id": "d5eb94c241cb36a9",
@@ -196,7 +209,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "682646ed3083ff63",
+  "active": "76e4cb87cf6587f2",
   "lastOpenFiles": [
     "DZ/ДЗ 1.md",
     "DZ/ДЗ 1.2.md",
