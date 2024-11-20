@@ -6,20 +6,6 @@
 #include <algorithm>
 using namespace std;
 
-int foo(vector<int>& a, const int &b) {
-	int l = 0, r = a.size() - 1;
-	while (1) {
-		int mid = (r + l) / 2;
-		//cout << l << " " << r << " " << mid << "\n";
-		if (a[mid] > b)r = mid - 1;
-		else if (a[mid] < b) l = mid + 1;
-		else if (a[mid] == b)return mid;
-		if (l > r)return -1;
-	}
-	if (a[r] == b)return r;
-	return -1;
-}
-
 int bin_find(vector<int>& a, const int &b, int c = -1, int d = -1) {
 	int l, r;
 	if(c == -1 && d == -1){
@@ -33,7 +19,7 @@ int bin_find(vector<int>& a, const int &b, int c = -1, int d = -1) {
 	else if (a[mid] < b) l = mid + 1;
 	else if (a[mid] == b)return mid;
 	if (l > r)return -1;
-	bin_find(a, b, l, r);
+	return bin_find(a, b, l, r);
 }
 
 int main()
