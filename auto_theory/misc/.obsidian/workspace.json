@@ -1,95 +1,37 @@
 {
   "main": {
-    "id": "40d8365ccb5f0e50",
+    "id": "edb8e66d71f4b521",
     "type": "split",
     "children": [
       {
-        "id": "16a9a6356bd75d7e",
+        "id": "43e1750efed1a972",
         "type": "tabs",
         "children": [
           {
-            "id": "dab1a7722f1d465f",
+            "id": "f6a0dbaf426721a6",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-<<<<<<< HEAD
               "title": "New tab"
             }
           }
         ]
-=======
-              "title": "Auto Theory PR2"
-            }
-          },
-          {
-            "id": "1fefc5c04c8be849",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PR_2_4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PR_2_4"
-            }
-          },
-          {
-            "id": "248ab1d49e79d815",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-11-21 18.58.08.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-11-21 18.58.08.excalidraw"
-            }
-          },
-          {
-            "id": "6ccb43abbe67c9cd",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-11-21 18.58.08.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-11-21 18.58.08.excalidraw"
-            }
-          },
-          {
-            "id": "3d32e424b0507da1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-11-18 20.37.34.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-11-18 20.37.34.excalidraw"
-            }
-          }
-        ],
-        "currentTab": 2
->>>>>>> f9362a1af1f6000f7856a94ac261dd4785633a73
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e6a6d07f421f5f26",
+    "id": "665d51e16224eba5",
     "type": "split",
     "children": [
       {
-        "id": "6705355c2cdc4d86",
+        "id": "384de49572301370",
         "type": "tabs",
         "children": [
           {
-            "id": "25dfcc0841d5a799",
+            "id": "154d9426b7efb24d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -101,7 +43,7 @@
             }
           },
           {
-            "id": "52d60ee29a5550ef",
+            "id": "897fdb385e847bdb",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -118,7 +60,7 @@
             }
           },
           {
-            "id": "a70c7ef61879c7f3",
+            "id": "5b118c1bc5bb6abd",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -134,15 +76,15 @@
     "width": 300
   },
   "right": {
-    "id": "e28b38dca7f2f29a",
+    "id": "1b553852d206a0e7",
     "type": "split",
     "children": [
       {
-        "id": "f6f190859ea544e5",
+        "id": "2c7622979e0cf025",
         "type": "tabs",
         "children": [
           {
-            "id": "59ca660c04390819",
+            "id": "4ba02e57342274f4",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -160,7 +102,7 @@
             }
           },
           {
-            "id": "c9a9002f72dc524e",
+            "id": "b40636ef5849b47e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -173,7 +115,7 @@
             }
           },
           {
-            "id": "ae7adf601825fbc4",
+            "id": "f2a0638c93795c84",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -186,7 +128,7 @@
             }
           },
           {
-            "id": "a60dc7abbc1f6c6e",
+            "id": "38204a62bbaff249",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -209,28 +151,10 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-<<<<<<< HEAD
-  "active": "dab1a7722f1d465f",
+  "active": "f6a0dbaf426721a6",
   "lastOpenFiles": []
-=======
-  "active": "248ab1d49e79d815",
-  "lastOpenFiles": [
-    "PR_2_4.md",
-    "Excalidraw/Drawing 2024-11-21 18.58.08.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-18 20.37.34.excalidraw.md",
-    "Auto Theory PR2.md",
-    "Excalidraw/Drawing 2024-11-08 23.24.02.excalidraw.md",
-    "Важное.md",
-    "Welcome.md",
-    "Excalidraw/Drawing 2024-11-09 23.00.50.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-11 15.47.19.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-08 23.07.51.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-09 19.06.00.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-09 19.05.17.excalidraw.md",
-    "Excalidraw"
-  ]
->>>>>>> f9362a1af1f6000f7856a94ac261dd4785633a73
 }
