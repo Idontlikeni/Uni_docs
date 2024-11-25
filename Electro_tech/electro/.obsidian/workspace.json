@@ -35,6 +35,18 @@
             }
           },
           {
+            "id": "f6e300c9474528e7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
+          },
+          {
             "id": "8bdcb7250bf8ed5c",
             "type": "leaf",
             "state": {
@@ -49,7 +61,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "9196d2da12260e1c",
@@ -209,7 +221,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "76e4cb87cf6587f2",
+  "active": "f6e300c9474528e7",
   "lastOpenFiles": [
     "DZ/ДЗ 1.md",
     "DZ/ДЗ 1.2.md",

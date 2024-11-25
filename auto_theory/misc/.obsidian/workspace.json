@@ -1,68 +1,37 @@
 {
   "main": {
-    "id": "41aaaa6ba8117396",
+    "id": "40d8365ccb5f0e50",
     "type": "split",
     "children": [
       {
-        "id": "cbc79e3e5e4af7dc",
+        "id": "16a9a6356bd75d7e",
         "type": "tabs",
         "children": [
           {
-            "id": "5436e1ebcaaf7c67",
+            "id": "dab1a7722f1d465f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Auto Theory PR2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Auto Theory PR2"
-            }
-          },
-          {
-            "id": "1fefc5c04c8be849",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PR_2_4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PR_2_4"
-            }
-          },
-          {
-            "id": "723c6c0e5e7f7fb6",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-11-18 20.37.34.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-11-18 20.37.34.excalidraw"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "82ccd1a59babe981",
+    "id": "e6a6d07f421f5f26",
     "type": "split",
     "children": [
       {
-        "id": "75a3ffa202669c9b",
+        "id": "6705355c2cdc4d86",
         "type": "tabs",
         "children": [
           {
-            "id": "695147ab8f8b23bc",
+            "id": "25dfcc0841d5a799",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -74,7 +43,7 @@
             }
           },
           {
-            "id": "d7143b2d878c2d86",
+            "id": "52d60ee29a5550ef",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -91,7 +60,7 @@
             }
           },
           {
-            "id": "3253dccfe529de28",
+            "id": "a70c7ef61879c7f3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -104,23 +73,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 300
   },
   "right": {
-    "id": "f5ff319ebddec1b7",
+    "id": "e28b38dca7f2f29a",
     "type": "split",
     "children": [
       {
-        "id": "4936d406a466e5e3",
+        "id": "f6f190859ea544e5",
         "type": "tabs",
         "children": [
           {
-            "id": "af4af332f4d53446",
+            "id": "59ca660c04390819",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,25 +98,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "85ee7dc0db87a52a",
+            "id": "c9a9002f72dc524e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "d5cc6c557b5ad5dc",
+            "id": "ae7adf601825fbc4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -161,15 +128,13 @@
             }
           },
           {
-            "id": "0166861ca51c184e",
+            "id": "a60dc7abbc1f6c6e",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Welcome.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline"
             }
           }
         ]
@@ -186,70 +151,9 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "eda4785b510c9166",
-    "type": "floating",
-    "children": [
-      {
-        "id": "5dfc6c5d8f7f8a97",
-        "type": "window",
-        "children": [
-          {
-            "id": "f05a5db48f5a4e8a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "11a0a0df0997359e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Auto Theory PR2.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Auto Theory PR2"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 3381,
-        "y": 66,
-        "width": 1054,
-        "height": 2454,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "1fefc5c04c8be849",
-  "lastOpenFiles": [
-<<<<<<< HEAD
-=======
-    "Auto Theory PR2.md",
-    "PR_2_4.md",
-    "Excalidraw/Drawing 2024-11-08 23.24.02.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-18 20.37.34.excalidraw.md",
-    "Важное.md",
-    "Welcome.md",
-    "Excalidraw/Drawing 2024-11-09 23.00.50.excalidraw.md",
->>>>>>> f6b4728e92b0b4969dbd67b50a92e113257cc029
-    "Excalidraw/Drawing 2024-11-11 15.47.19.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-09 23.00.50.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-09 19.06.00.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-08 23.07.51.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-09 19.05.17.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-08 23.24.02.excalidraw.md",
-    "Auto Theory PR2.md",
-    "Важное.md",
-    "Welcome.md",
-    "Excalidraw"
-  ]
+  "active": "dab1a7722f1d465f",
+  "lastOpenFiles": []
 }

@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class StackOnQueue{
-    private ArrayDeque<Integer> queue1 = new ArrayDeque<>();
-    private ArrayDeque<Integer> queue2 = new ArrayDeque<>();
+    private LinkedList<Integer> queue1 = new LinkedList<>();
+    private LinkedList<Integer> queue2 = new LinkedList<>();
     public int getSize() {
         return queue1.size();
     }
@@ -10,34 +10,33 @@ public class StackOnQueue{
         queue1.add(x);
     }
     public int top(){
-        //System.out.println(queue1);
         int n = getSize();
-        queue2 = queue1.clone();
+        int r;
         for (int i = 0; i < n - 1; i++) {
-            queue2.poll();
+            queue2.add(queue1.poll());
         }
-        //System.out.println(queue1);
-        // System.out.println(queue2);
-        return queue2.poll();
-    }
-    public int pop(){
-        //System.out.println(queue1);
-        int n = getSize();
-        queue2 = queue1.clone();
-        queue1.clear();
+        r = queue1.poll();
         for (int i = 0; i < n - 1; i++) {
             queue1.add(queue2.poll());
         }
-        //System.out.println(queue1);
-        // System.out.println(queue2);
-        return queue2.poll();
+        queue1.add(r);
+        return r;
+    }
+
+    public int pop(){
+        int n = getSize();
+        int r;
+        for (int i = 0; i < n - 1; i++) {
+            queue2.add(queue1.poll());
+        }
+        r = queue1.poll();
+        for (int i = 0; i < n - 1; i++) {
+            queue1.add(queue2.poll());
+        }
+        return r;
     }
 
     public boolean isEmpty(){
         return queue1.isEmpty();
     }
-/*    @Override
-    public String toString() {
-        return "стек: " + list.toString();
-    }*/
 }
