@@ -72,8 +72,20 @@
         <mxCell id="7FSXM4tq-Q16qzd7noBq-21" value="cout &amp;lt;&amp;lt; &quot;Введите номер чека: \n&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="285" y="600" width="130" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="7FSXM4tq-Q16qzd7noBq-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7FSXM4tq-Q16qzd7noBq-23" target="7FSXM4tq-Q16qzd7noBq-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7FSXM4tq-Q16qzd7noBq-23" value="cin &amp;gt;&amp;gt; n" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="285" y="670" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7FSXM4tq-Q16qzd7noBq-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7FSXM4tq-Q16qzd7noBq-25" target="7FSXM4tq-Q16qzd7noBq-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7FSXM4tq-Q16qzd7noBq-25" value="cout &amp;lt;&amp;lt; &quot;Информация о чеке под введенным номером: &quot; &amp;lt;&amp;lt; vec[bin_search(vec, n)].info();" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="242.5" y="740" width="215" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7FSXM4tq-Q16qzd7noBq-27" value="write_vec(vec, output)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="830" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
