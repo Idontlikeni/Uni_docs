@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../PR_4.srcs/sources_1/new/cd.v" \
+"../../../../PR_4.srcs/sources_1/new/dc.v" \
+"../../../../PR_4.srcs/sources_1/new/func1.v" \
+"../../../../PR_4.srcs/sources_1/new/func2.v" \
+"../../../../PR_4.srcs/sources_1/new/func3.v" \
+"../../../../PR_4.srcs/sources_1/new/mux.v" \
+"../../../../PR_4.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

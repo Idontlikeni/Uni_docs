@@ -1,3 +1,8 @@
 $$
-F_{мднф} = \bar{x_{1}}\bar{x_{2}}\bar{x_{4}}x_{5} + \bar{x_{1}}x_{2}\bar{x_{4}}\bar{x_{5}} + x_{1}\bar{x_{2}}\bar{x_{4}}\bar{x_{5}} + x_{2}x_{3}x_{4}\bar{x_{5}} + x_{1}\bar{x_{3}}x_{4}x_{5} \bar{x_{1}}\bar{x_{2}}x_{3}x_{4} + x_{3}\bar{x_{4}}x_{5}
+\begin{gather}
+(c \to b) = \bar{c} \lor b \\
+\overline{\bar{c} \lor b} + \bar{c} + a \\
+c\bar{b} + \bar{c} + a
+\end{gather}
+
 $$

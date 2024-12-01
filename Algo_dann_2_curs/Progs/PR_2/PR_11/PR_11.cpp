@@ -1,7 +1,4 @@
-﻿// PR_11.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
-#include <iostream>
+﻿#include <iostream>
 #include <fstream>
 #include <string>
 #include <vector>
@@ -19,6 +16,10 @@ struct bill {
     }
     string info() {
         return to_string(number) + " " + to_string(money_sum) + " " + date + " " + time;
+    }
+    bool operator < (const bill& sec) const
+    {
+        return number < sec.number;
     }
 };
 
@@ -38,41 +39,59 @@ int bin_search(vector<bill>& a, const int& b) {
     }
 }
 
-int main()
-{
-    ifstream fin("input.txt");
-    ofstream fout("person_data.bin");
-    vector<bill>vec;
+void sort_vec(vector<bill>& a) {
+    sort(a.begin(), a.end());
+}
+
+int read_vec(vector<bill>& vec, string input) {
+    ifstream fin(input);
     if (!fin) {
-        cout << "File is not open!";
-        return 0;
+        cout << "Input file is not open!";
+        return -1;
     }
-    else {
-        while (!fin.eof()) {
-            int n, money;
-            string date, time;
-            fin >> n >> money >> date >> time;
-            vec.push_back(bill(n, money, date, time));
-        }
-        sort(vec.begin(), vec.end(), comp);
-        /*FILE* file;
-        fopen_s(&file, "person_data.bin", "wb");*/
-        for (auto a : vec) {
-            cout << a.info() << "\n";
-            string temp = a.info();
-            fout.write(a.info().c_str(), sizeof(a.info()));
-            //fout.write((char*)a, sizeof(a));
-        }
+    while (!fin.eof()) {
+        int n, money;
+        string date, time;
+        fin >> n >> money >> date >> time;
+        vec.push_back(bill(n, money, date, time));
+    }
+    return 0;
+}
+
+void print_vec(vector<bill>& vec) {
+    for (auto a : vec) {
+        cout << a.info() << "\n";
     }
 }
 
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
+int write_vec(vector<bill>& vec, string output) {
+    ofstream fout(output);
+    if (!fout) {
+        cout << "Output file is not open!";
+        return -1;
+    }
+    for (auto a : vec) {
+        string temp = a.info();
+        fout.write(a.info().c_str(), sizeof(a.info()));
+    }
+    return 0;
+}
 
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
+int main()
+{
+    setlocale(LC_ALL, "RU");
+    string input, output;
+    cout << "Введите название входного файла:\n";
+    cin >> input;
+    cout << "Введите название выходного файла:\n";
+    cin >> output;
+    vector<bill>vec;
+    read_vec(vec, input);
+    sort_vec(vec);
+    print_vec(vec);
+    cout << "Введите номер чека: \n";
+    int n;
+    cin >> n;
+    cout << "Информация о чеке под введенным номером: " << vec[bin_search(vec, n)].info();
+    write_vec(vec, output);
+}

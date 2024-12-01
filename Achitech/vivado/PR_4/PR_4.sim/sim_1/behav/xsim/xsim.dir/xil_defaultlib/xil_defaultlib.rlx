@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/Files/Achitech/vivado/PR_4/PR_4.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sim_1/new/testbench.v,1733053049,verilog,,,,testbench,,,,,,,,
+D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/cd.v,1732465387,verilog,,D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/dc.v,,cd,,,,,,,,
+D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/dc.v,1733051834,verilog,,D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/func1.v,,dc,,,,,,,,
+D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/func1.v,1733053956,verilog,,D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/func2.v,,func1,,,,,,,,
+D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/func2.v,1732485133,verilog,,D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/func3.v,,func2,,,,,,,,
+D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/func3.v,1733052876,verilog,,D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/mux.v,,func3,,,,,,,,
+D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/mux.v,1732465334,verilog,,D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sim_1/new/testbench.v,,mux,,,,,,,,

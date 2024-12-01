@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/cd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cd
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/dc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/func1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module func1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/func2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module func2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/func3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module func3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Files/Achitech/vivado/PR_4/PR_4.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
