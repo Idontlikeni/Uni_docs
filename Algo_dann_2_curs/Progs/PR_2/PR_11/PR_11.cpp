@@ -87,7 +87,10 @@ int main()
     cin >> output;
     vector<bill>vec;
     read_vec(vec, input);
+    cout << "Содержание файла:\n";
+    print_vec(vec);
     sort_vec(vec);
+    cout << "Отсортированные значения:\n";
     print_vec(vec);
     cout << "Введите номер чека: \n";
     int n;
