@@ -114,6 +114,7 @@ int main()
         {
         case 0:
             f = false;
+            write_file(mp);
             break;
         case 1:
             mp.clear();
