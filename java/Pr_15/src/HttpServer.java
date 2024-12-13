@@ -3,7 +3,7 @@ import java.net.*;
 
 public class HttpServer {
     private static final int PORT = 2222;
-    private static final String STUDENT_INFO = "ФИО: Туктаров Тимур Азатович, Шифр: 23И0087";
+    private static final String STUDENT_INFO = "ФИО: Туктаров Тимур Азатович Шифр: 23И0087"; //, Шифр";
     public static void main(String[] args){
         try(ServerSocket serverSocket = new ServerSocket(PORT)){
             System.out.println("HTTP сервер запущен на порту " + PORT);
@@ -74,7 +74,7 @@ public class HttpServer {
     private static void sendHttpResponse(PrintWriter out, int statusCode, String body) throws IOException{
         out.println("HTTP/1.1 " + statusCode + " OK");
         out.println("Content-Type: text/html; charset=UTF-8");
-        out.println("Content-Length: " + body.length());
+        out.println("Content-Length: " + body.getBytes("UTF-8").length  );
         out.println();
         out.println(body);
     }
