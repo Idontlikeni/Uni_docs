@@ -12,7 +12,6 @@ public class StudentList {
         public boolean hasNext() {return index < students.length;}
         public String next(){return students[index++];}
     }
-
     public StudentList(String[] students) {
         this.students = students;
     }

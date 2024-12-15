@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc.md",
+                "file": "DZ/ДЗ 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "misc"
+              "title": "ДЗ 2"
             }
           }
         ]
@@ -165,6 +165,10 @@
   },
   "active": "a089c0642d983f65",
   "lastOpenFiles": [
+    "Untitled.md",
+    "DZ/ДЗ 2.md",
+    "Pasted image 20241210125307.png",
+    "misc.md",
     "DZ/ДЗ 1 часть 2.md",
     "DZ/ДЗ 1 часть 2.pdf",
     "DZ/mso297A.tmp",
@@ -186,7 +190,6 @@
     "Pasted image 20241126125000.png",
     "Pasted image 20241126124825.png",
     "Pasted image 20241126124805.png",
-    "Pasted image 20241126124631.png",
-    "Pasted image 20240916200657_0.png"
+    "Pasted image 20241126124631.png"
   ]
 }
