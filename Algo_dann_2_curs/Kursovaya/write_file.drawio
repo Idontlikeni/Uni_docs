@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Страница — 1" id="eGe1P7UBPLL7jYQGGERw">
+    <mxGraphModel dx="749" dy="1853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dVFjlMdGkONHJsSrZExQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dVFjlMdGkONHJsSrZExQ-1" target="dVFjlMdGkONHJsSrZExQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dVFjlMdGkONHJsSrZExQ-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dVFjlMdGkONHJsSrZExQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dVFjlMdGkONHJsSrZExQ-2" target="dVFjlMdGkONHJsSrZExQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dVFjlMdGkONHJsSrZExQ-2" value="fout.open(&quot;output.txt&quot;)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="298.5" y="120" width="161" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dVFjlMdGkONHJsSrZExQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dVFjlMdGkONHJsSrZExQ-4" target="dVFjlMdGkONHJsSrZExQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dVFjlMdGkONHJsSrZExQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dVFjlMdGkONHJsSrZExQ-4" target="dVFjlMdGkONHJsSrZExQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="200" />
+              <mxPoint x="550" y="390" />
+              <mxPoint x="379" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVFjlMdGkONHJsSrZExQ-4" value="for(auto&amp;amp; element : mp)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="298.5" y="180" width="161" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dVFjlMdGkONHJsSrZExQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dVFjlMdGkONHJsSrZExQ-6" target="dVFjlMdGkONHJsSrZExQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="379" y="380" />
+              <mxPoint x="230" y="380" />
+              <mxPoint x="230" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dVFjlMdGkONHJsSrZExQ-6" value="fout &amp;lt;&amp;lt; element.first &amp;lt;&amp;lt; &quot; &quot;&lt;div&gt;&amp;nbsp;&amp;lt;&amp;lt; element.second.f &amp;lt;&amp;lt; &quot; &quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; element.second.i &amp;lt;&amp;lt; &quot; &quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; element.second.o &amp;lt;&amp;lt; &quot; &quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt; element.second.number &amp;lt;&amp;lt; &quot; &quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;lt;&amp;lt; element.second.series &amp;lt;&amp;lt; &quot;\n&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="240" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dVFjlMdGkONHJsSrZExQ-9" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="410" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

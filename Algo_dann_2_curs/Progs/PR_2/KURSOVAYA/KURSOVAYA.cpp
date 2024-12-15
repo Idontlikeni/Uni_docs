@@ -92,6 +92,7 @@ void read_file(map<string, info>& mp) {
         fin >> phone >> fio[0] >> fio[1] >> fio[2] >> number >> series;
         mp[phone] = info{ fio[0], fio[1], fio[2], number, series };
     }
+    fin.close();
 }
 
 void write_file(map<string, info>& mp) {
@@ -99,6 +100,7 @@ void write_file(map<string, info>& mp) {
     for (const auto& element : mp) {
         fout << element.first << " " << element.second.f << " " << element.second.i << " " << element.second.o << " " << element.second.number << " " << element.second.series << "\n";
     }
+    fout.close();
 }
 
 int main()
