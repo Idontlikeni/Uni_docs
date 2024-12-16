@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Пр_1.md",
+                "file": "Auto Theory PR2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Пр_1"
+              "title": "Auto Theory PR2"
             }
           }
         ],
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1b553852d206a0e7",
@@ -177,8 +176,8 @@
   },
   "active": "5d0370497574cd85",
   "lastOpenFiles": [
-    "Auto Theory PR2.md",
     "Пр_1.md",
+    "Auto Theory PR2.md",
     "Важное.md",
     "PR_2_4.md",
     "Welcome.md"
