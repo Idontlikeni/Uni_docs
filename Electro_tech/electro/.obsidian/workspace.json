@@ -6,7 +6,6 @@
       {
         "id": "705e896c74d50514",
         "type": "tabs",
-        "dimension": 58.66197183098591,
         "children": [
           {
             "id": "a089c0642d983f65",
@@ -21,16 +20,9 @@
               "icon": "lucide-file",
               "title": "ДЗ 2"
             }
-          }
-        ]
-      },
-      {
-        "id": "31d4f2fc382a06bd",
-        "type": "tabs",
-        "dimension": 41.33802816901409,
-        "children": [
+          },
           {
-            "id": "b6c7ba7c37155234",
+            "id": "1ca66efa41b1f648",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -188,6 +180,10 @@
   "lastOpenFiles": [
     "Excalidraw/Drawing 2024-12-17 11.18.19.excalidraw.md",
     "DZ/ДЗ 2.md",
+    "Pasted image 20241218203518.png",
+    "Pasted image 20241218203355.png",
+    "Pasted image 20241218190841.png",
+    "octave-online-line-27.png",
     "Pasted Image 20241217114001_703.png",
     "Pasted image 20241210125307_0.png",
     "Untitled.md",
@@ -208,10 +204,6 @@
     "Pasted image 20241127000545.png",
     "graph.png",
     "DZ/ДЗ 1.md",
-    "Excalidraw/Drawing 2024-11-25 21.04.20.excalidraw.md",
-    "Pasted image 20241126125823.png",
-    "Pasted image 20241126125802.png",
-    "Pasted image 20241126125000.png",
-    "Pasted image 20241126124825.png"
+    "Excalidraw/Drawing 2024-11-25 21.04.20.excalidraw.md"
   ]
 }
