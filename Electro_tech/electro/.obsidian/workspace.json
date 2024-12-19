@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7ab860843d3236ec",
@@ -178,8 +177,10 @@
   },
   "active": "a089c0642d983f65",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-12-17 11.18.19.excalidraw.md",
+    "DZ/ДЗ 1 часть 2.md",
+    "DZ/ДЗ 1.md",
     "DZ/ДЗ 2.md",
+    "Excalidraw/Drawing 2024-12-17 11.18.19.excalidraw.md",
     "Pasted image 20241218203518.png",
     "Pasted image 20241218203355.png",
     "Pasted image 20241218190841.png",
@@ -189,7 +190,6 @@
     "Untitled.md",
     "Pasted image 20241210125307.png",
     "misc.md",
-    "DZ/ДЗ 1 часть 2.md",
     "DZ/ДЗ 1 часть 2.pdf",
     "DZ/mso297A.tmp",
     "DZ/mso1A18.tmp",
@@ -203,7 +203,6 @@
     "Pasted image 20240916200657.png",
     "Pasted image 20241127000545.png",
     "graph.png",
-    "DZ/ДЗ 1.md",
     "Excalidraw/Drawing 2024-11-25 21.04.20.excalidraw.md"
   ]
 }

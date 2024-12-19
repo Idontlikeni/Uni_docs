@@ -71,7 +71,8 @@ public class AuthController {
     }
 
     private List<String> performSearch(String query) {
-        List<String> allData = List.of("Лучший язык программирование", "А это есть на Javarush?", "Стоит ли учить Java?");
+        List<String> allData = List.of("10 Причин почему java лучше C++", "Сколько стоят арбузы?", "Почему СДО не работает?"
+        , "Есть 2 стула...", "билибоба", "герой не тот, кто герой, а тот, кто...что?...");
         List<String> results = new ArrayList<>();
         String lowerCaseQuery = query.toLowerCase();
         for (String data : allData) {
