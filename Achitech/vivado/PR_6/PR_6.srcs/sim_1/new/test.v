@@ -5,8 +5,9 @@ module test();
     reg dir = 1;
     wire [$clog2(175) - 1:0] out;
     wire clk_div;
-    always #1 clk = ~clk;
-    always #175 clk_ref = ~clk_ref;
+    
+    always #10 clk = ~clk;
+    always #1750 clk_ref = ~clk_ref;
     
     count #(1, 175) count1(.clk(clk), .dir(dir), .out(out));
     delitel delitel(.clk(clk), .out(clk_div));
