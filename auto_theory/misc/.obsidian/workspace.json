@@ -48,6 +48,18 @@
               "icon": "lucide-file",
               "title": "Auto Theory PR2"
             }
+          },
+          {
+            "id": "4354fb128a319004",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-11-18 20.37.34.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-11-18 20.37.34.excalidraw"
+            }
           }
         ],
         "currentTab": 2
@@ -187,15 +199,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a82bee3d8f8cb53d",
+  "active": "154d9426b7efb24d",
   "lastOpenFiles": [
+    "Важное.md",
+    "Welcome.md",
+    "PR_2_4.md",
+    "Пр_1.md",
+    "Auto Theory PR2.md",
+    "Excalidraw/Drawing 2024-11-18 20.37.34.excalidraw.md",
     "~$to Theory PR2.docx",
     "Excalidraw/Drawing 2024-11-08 23.24.02.excalidraw.md",
-    "Auto Theory PR2.md",
-    "Auto Theory PR2.docx",
-    "Пр_1.md",
-    "Важное.md",
-    "PR_2_4.md",
-    "Welcome.md"
+    "Auto Theory PR2.docx"
   ]
 }
