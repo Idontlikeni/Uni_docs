@@ -16,11 +16,4 @@ public class ArrayStack<E> extends ArrayList<E> {
         list.remove(getSize() - 1);
         return o;
     }
-//    public boolean isEmpty() {
-//        return list.isEmpty();
-//    }
-//    @Override
-//    public String toString() {
-//        return "стек: " + list.toString();
-//    }
 }

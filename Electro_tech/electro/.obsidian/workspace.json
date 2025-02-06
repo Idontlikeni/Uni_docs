@@ -34,37 +34,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "0d08c5c81070bd6d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "323c9ecc8737b74e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-12-17 11.18.19.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-17 11.18.19.excalidraw"
-            }
-          },
-          {
-            "id": "c8eb3841d7652f3b",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-12-19 21.01.31.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-19 21.01.31.excalidraw"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,16 +174,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8eb3841d7652f3b",
+  "active": "a089c0642d983f65",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-12-17 11.18.19.excalidraw.md",
+    "Excalidraw/Drawing 2024-12-19 21.01.31.excalidraw.md",
     "DZ/ДЗ 2.md",
     "DZ/ИВБО-11-23_ТуктаровТА_ДР-1_87.pdf",
     "DZ/ИВБО-11-23_ТуктаровТА_ДР-1_87(1).pdf",
     "DZ/ИВБО-11-23_ТуктаровТА_ДР-1_87 (2).pdf",
-    "Excalidraw/Drawing 2024-12-19 21.01.31.excalidraw.md",
     "Pasted image 20241219210210.png",
     "Pasted Image 20241219210203_412.png",
-    "Excalidraw/Drawing 2024-12-17 11.18.19.excalidraw.md",
     "DZ/ДЗ 1 часть 2.md",
     "DZ/ДЗ 1.md",
     "Pasted image 20241218203518.png",

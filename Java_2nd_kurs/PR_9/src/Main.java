@@ -1,35 +1,10 @@
 import java.util.ArrayList;
 
 public class Main {
-    static<T> ArrayList<T> meth(ArrayList<T> a){
-        ArrayList<T> temp = new ArrayList<>();
-        for(T i: a){
-            if(!temp.contains(i))temp.add(i);
-        }
-        return temp;
-    }
-
-    static<T> int find(T[] a, T p){
-        for (int i = 0; i < a.length; i++) {
-            if(a[i] == p)return i;
-        }
-        return -1;
-    }
-
     static<T extends Comparable<T>> T find_max(T[]a){
         T mx = a[0];
         for (int i = 0; i < a.length; i++) {
             if(a[i].compareTo(mx) > 0)mx = a[i];
-        }
-        return mx;
-    }
-
-    static<T extends Comparable<T>> T find_max(T[][]a){
-        T mx = a[0][0];
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < a[0].length; j++) {
-                if(a[i][j].compareTo(mx) > 0)mx = a[i][j];
-            }
         }
         return mx;
     }
@@ -47,7 +22,6 @@ public class Main {
         System.out.println(stack.pop());
         System.out.println(stack.peek());
         System.out.println(stack.toString());
-
         ArrayStack<String>st = new ArrayStack<String>();
         st.push("1");
         st.push("2");

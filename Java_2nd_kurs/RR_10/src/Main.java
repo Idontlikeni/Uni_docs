@@ -4,8 +4,6 @@ public class Main {
     public static void main(String[] args) {
         MyStack<String> s = new MyStack<>();
         MyStack<String> s2;
-
-
         s.push("1");
         s.push("2");
         s.push("3");
